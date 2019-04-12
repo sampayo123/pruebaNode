@@ -26,8 +26,8 @@ This sample can be run locally using `ngrok` as described in the [official docum
             "cwd": "${workspaceFolder}/src",
             "env": {
                 "BASE_URI": "https://########.ngrok.io",
-                "MICROSOFT_APP_ID": "00000000-0000-0000-0000-000000000000",
-                "MICROSOFT_APP_PASSWORD": "yourBotAppPassword",
+                //"MICROSOFT_APP_ID": "00000000-0000-0000-0000-000000000000",
+                //"MICROSOFT_APP_PASSWORD": "yourBotAppPassword",
                 "NODE_DEBUG": "botbuilder",
                 "SUPPRESS_NO_CONFIG_WARNING": "y",
                 "NODE_CONFIG_DIR": "../config"
